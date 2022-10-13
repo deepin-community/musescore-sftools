@@ -1,0 +1,28 @@
+musescore-sftools (20180325-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Thorsten Glaser <tg@mirbsd.de>  Mon, 16 May 2022 20:20:32 +0800
+
+musescore-sftools (20180325-1) unstable; urgency=high
+
+  * Rename binary to sf3convert as requested by upstream
+    (the former package name existed short enough no transition is needed)
+  * New upstream snapshot, merges all patches
+
+ -- Thorsten Glaser <tg@mirbsd.de>  Sun, 25 Mar 2018 19:28:35 +0200
+
+musescore-sftools (20180222-2) unstable; urgency=low
+
+  * Document likely renaming of the binary package upcoming
+  * Add patch to allow SF3 building in a reproducible manner
+  * Provide debian/upstream/metadata as prompted by lintian
+  * Update patches and forward them upstream as possible
+
+ -- Thorsten Glaser <tg@mirbsd.de>  Thu, 15 Mar 2018 01:22:48 +0100
+
+musescore-sftools (20180222-1) unstable; urgency=high
+
+  * Initial Release
+
+ -- Thorsten Glaser <tg@mirbsd.de>  Mon, 05 Mar 2018 02:12:16 +0100

@@ -1,0 +1,8 @@
+# no, thanks
+musescore-sftools source: no-dep5-copyright
+
+# no tests exist
+musescore-sftools source: testsuite-autopkgtest-missing
+
+# upstream does not release
+musescore-sftools source: debian-watch-file-is-missing

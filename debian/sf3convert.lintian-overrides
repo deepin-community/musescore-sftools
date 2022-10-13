@@ -1,0 +1,5 @@
+# there’s none
+sf3convert: no-upstream-changelog
+
+# false positive: name of a CLI parameter
+sf3convert: spelling-error-in-manpage usr/share/man/man1/sf3convert.1.gz pres press

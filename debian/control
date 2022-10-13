@@ -1,0 +1,24 @@
+Source: musescore-sftools
+Section: sound
+Priority: optional
+Maintainer: Thorsten Glaser <tg@mirbsd.de>
+Homepage: https://github.com/musescore/sftools
+Build-Depends: cmake, debhelper (>= 11), libsndfile1-dev, qtbase5-dev (>= 5.6)
+Standards-Version: 4.1.3
+VCS-git: https://github.com/mirabilos/sftools
+VCS-Browser: https://github.com/mirabilos/sftools
+
+Package: sf3convert
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: MuseScore SoundFont converter
+ The sf3convert tool can be used to convert an SF2 SoundFont
+ into SF3 format, or into C code for embedding into a binary.
+ .
+ The SF3 SoundFont format is the same as SF2, except it uses
+ an OGG container instead of WAV for the patches contained
+ in it. Current synthesisers, such as MuseScore and FluidSynth,
+ expect the Vorbis codec to be used, which is lossy; hence, an
+ SF3 SoundFont is considered to have a corresponding SF2 one
+ as source, and to be compiled via this tool.

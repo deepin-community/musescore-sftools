@@ -1,0 +1,9 @@
+{
+  "Archive": "GitHub",
+  "Bug-Database": "https://github.com/musescore/sftools/issues",
+  "Bug-Submit": "https://github.com/musescore/sftools/issues/new",
+  "Donation": "https://musescore.org/en/donate",
+  "Name": "sftools",
+  "Repository": "git@github.com:musescore/sftools.git",
+  "Repository-Browse": "https://github.com/musescore/sftools"
+}

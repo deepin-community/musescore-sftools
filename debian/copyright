@@ -1,0 +1,21 @@
+This package was debianised by Thorsten Glaser <tg@mirbsd.de> on
+Mon, 05 Mar 2018 01:19:25 +0100.
+
+It was downloaded from the upstream git repository at:
+https://github.com/musescore/sftools
+
+
+Licence:
+
+#  Copyright (C) 2002-2014 by Werner Schweer and others
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License version 2.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+
+On Debian systems, /usr/share/common-licenses/GPL-2 contains a
+copy of the licence. The Debian packaging is covered by the same terms.
